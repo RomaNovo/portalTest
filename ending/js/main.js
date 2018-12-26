@@ -59,6 +59,8 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 document.addEventListener("DOMContentLoaded", ()=> {
+	let percentBlock = document.querySelector('.profile__stat');
+	percentBlock.style.display = 'none';
 	let tabs = document.querySelectorAll('.info__tabs--block'),
 		infoBlocks = [...document.querySelector('.info__block').children];
 		

@@ -1,16 +1,21 @@
 .header {
-	background-color: grey;
+/*     background: linear-gradient(to bottom, #cfe7fa 0%,#6393c1 100%); */
+    background: url(https://britishschool.ua/wp-content/uploads/2018/02/IMG_7793-1920x400.jpg);
+    background-blend-mode: color-dodge;
+    background-color: rgba(0, 0, 0, .5);
 	box-shadow: 0 2px 4px rgba(0, 0, 0, .25);	
 	&__wrp {
-		padding: 25px 0 25px;
+		padding: 75px 0 75px;
 		display: flex;
 		justify-content: center;	
 	}
 	&__top {
+
 		padding: 15px;
 		display: flex;
 		align-items: center;
 		box-shadow: 0 2px 4px rgba(0, 0, 0, .25);	
+        box-shadow: 0 1px 4px rgba(255, 255, 255, 1);   
 	}
 	&__logo {
 		width: 100px;
